@@ -1,0 +1,21 @@
+
+h1, h2, h3{
+  color: #b87ddf;
+  font-family:"Monotype Corsiva";
+}
+ul li {
+  list-style: none;  
+  background: url(../img/shrek.png) no-repeat 0 4px; 
+  padding-left: 24px;
+  background-size: 15px;
+}
+tr th,td{
+  border: 1px solid black;
+  text-align: center;
+}
+.para{
+  text-indent: 30px;
+  margin-bottom: 0;;
+  margin-top: 0;
+}
+

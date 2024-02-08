@@ -1,0 +1,216 @@
+@mixin grid {
+  display: grid;
+  grid-template-columns: repeat(13,1fr);
+  grid-template-rows: 8.5vh 6vh 30vh 5vh 6vh 14vh 10vh 8vh; 
+  grid-gap:10px;
+  text-align: center;
+  grid-template-areas: 
+  "a a a a a a a a a a a a a"
+  "b b b b b b b b b c c c c"
+  "d d d d d d d d d c c c c"
+  "d d d d d d d d d e e e e"
+  "f f f f f f f f f g g g g"
+  "h h h h h h h h h g g g g"
+  "h h h h h h h h h g g g g"
+  "i i i i i i i i i i i i i";
+}
+.grid{
+  @include grid();
+}
+$nole:0;
+
+@mixin diver {
+  background: radial-gradient(#ffd29888,white);
+  border-radius: 5px;
+}
+.grid > div {
+  @include diver();
+}
+
+
+@mixin content1 {
+  text-align: left;
+ 
+  background: linear-gradient(to left, #ffe2bc ,white 50%);
+}
+.content1{
+  @include content1();
+}
+
+@mixin content3 {
+  display: inline-block; 
+  text-align: left;  
+  width: 150px; 
+}
+label{
+  @include content3();
+}
+$widh:150px;
+
+
+
+@function paragraph-img($widh){          ////////функция
+    @if ($widh == 150px ){
+        @return 150px;
+      } @else {
+         @return 80px;
+      }
+}
+
+
+
+
+@mixin img {
+  margin: 22px;
+  width: 150px;
+  height: paragraph-img($widh);
+  border-radius: 20px;
+}
+img{
+  @include img();
+}
+
+@mixin content6 {
+  text-align: left;
+}
+.content6{
+  @include content6();
+}
+
+@mixin ul{
+float: right;
+width: 250px;
+margin-top: 23px;
+margin-left: 20px;
+padding-left: $nole;
+margin-right: 5px
+
+}
+ul{
+  @include ul();
+}
+$widh:80px;
+@mixin img2 {
+
+  margin-top: 23px;
+  width: $widh;
+  height: paragraph-img($widh);
+  border-radius: 15px;
+}
+.content6> div> img{
+  @include img2();
+}
+@font-face {
+  font-family: "Marck";
+  src: url('../fonts/MarckScript-Regular.ttf');
+}
+
+$font:14px;                             /////////function
+@function size-header($font) {
+    @return $font + 4px
+  }
+
+@mixin h {
+  padding:$nole;
+  margin: $nole;
+  font-family: "Marck";
+  font-size: size-header($font);
+}
+.content5 > h3, h4{
+  @include h();
+}
+.content4 > h3{
+  @include h();
+}
+form > h3{
+  @include h();
+}
+.content2 > div > h3{
+  @include h();
+}
+
+
+
+
+
+
+
+
+@mixin test {
+  display: inline-block;
+  width: 280px;
+  height: 250px;
+  font-size: $font;
+  
+}
+.test1, .test2, .test3 {
+  @include test();
+}
+@mixin text {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.test2{
+  @include text();
+}
+
+
+
+@mixin head1{
+  display: inline-block;
+
+}
+
+$otspyp:100px;
+
+
+@mixin head2{
+  display: inline-block;
+  float: right;
+  margin: $nole;
+  padding: $nole;
+  margin-right: $otspyp;
+  margin-top: 20px;
+ 
+  
+}
+
+ .header1{
+  @include head1();
+}
+  
+ .header2{
+  @include head2();
+}
+
+.header1>img{
+  width: 100px;
+  height: 60px;
+  padding: $nole;
+  margin: $nole;
+  
+}
+a{
+  text-decoration: none;
+  color:  #fdc376;
+}
+h5{
+  text-align: left;
+  margin-bottom: $nole;
+  margin-top: $nole;
+}
+.content8{
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/second.css"  rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Заказ быстрого подарка на Новый год</h1>    
+        <form>
+            <label for="surname">Фамилия:</label>
+            <input type="text" id="surname" name="surname"> <br>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name"> <br>
+            <label for="fathername">Отчество:</label>
+            <input type="text" id="fathername" name="fathername"> <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"> <br>
+
+            <label for="country">Адрес доставки:</label>
+            <input type="text" id="country" name="country"> <br>
+
+            
+            <label for="present">Выбор подарка</label>
+                <select id="present">
+                    <option value="" selected disabled>Выберите подарок</option>
+                    <option value="">Снежный шар</option>
+                    <option value="">Каммин</option>
+                    <option value="">Колье</option>
+                    <option value="">Поездка в отпуск</option>
+                    <option value="">Случайный подарок на наш вкус</option>
+                </select><br>
+
+                <label for="color">Выбор упаковки</label>
+                <select id="color">
+                    <option value="" selected disabled>Выберите цвет</option>
+                    <option value="">Зелёный с рисунками</option>
+                    <option value="">Красный с рисунками</option>
+                    <option value="">Желтый с рисунками</option>
+                    <option value="">Случайная упаковка на наш вкус</option>
+                    <option value="">Без упаковки</option>
+                </select><br>
+            <input id="btn" type="button" name="ordering" value="Заказать" onclick="order()">
+
+        </form>
+        <footer id="footer">
+            <p></p>
+        </footer>
+    </div>
+    <script src="js/second.js"></script>
+</body>
+</html>

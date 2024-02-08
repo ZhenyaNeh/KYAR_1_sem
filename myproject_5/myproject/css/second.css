@@ -1,0 +1,33 @@
+table {
+  text-align: center;
+  empty-cells: hide;
+}
+h2{
+  text-align: left;
+  font-size: 1.2em;
+  color: #413e3e;
+}
+th {
+  background-color:darkblue;
+  color:white;
+  height: 40px;
+  min-width: 50px;
+  padding: 0 5px 0 5px;
+  
+}
+td:nth-child(2){
+  background-color: #00fff2;
+}
+td:nth-child(3){
+  background-color: purple;
+}
+td:last-child{
+  background-color: green;
+}
+td:first-child {
+  color:black;
+}
+td {
+  border: 2px double #413e3e;
+  color:white;
+}

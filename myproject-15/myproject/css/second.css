@@ -1,0 +1,47 @@
+form {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%,25%);
+  padding: 5px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+form label {
+  display: inline-block;
+  text-align: left;
+  width: 150px;
+  padding-top: 5px;
+}
+h1 {
+  width: 550px;
+  text-align: center;
+  transform: translateX(510px);
+  border-radius: 10px;
+  
+}
+
+footer {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%,300px);
+}
+footer p {
+  width: 350px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body {
+  background: url(../img/555423.gif);
+}
+
+div h1, form,footer>p {
+  background-color: #f5f5dcd1;
+  color: #584f6b;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

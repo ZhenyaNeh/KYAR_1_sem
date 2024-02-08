@@ -1,0 +1,56 @@
+div{
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+  width: 35px;
+  height: 40px;
+  padding: 10px;
+
+}
+.colred{
+  border: 7px solid rgb(255, 0, 0);
+}
+.colgre{
+  border: 7px dashed rgb(0,255,0)
+}
+.colblu{
+  border: 7px dotted rgb(21, 0, 255)
+}
+.colaqu{
+  border: 7px double rgb(0, 255, 255);
+}
+.colpur{
+  border: 7px ridge rgb(128, 0, 128);
+}
+.colyel{
+  border: 7px groove  rgb(255, 255, 0);
+}
+.colbla{
+  border: 7px inset rgb(0, 0, 0);
+}
+p{
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  border: 7px solid #FF4500;
+}
+.par1{
+  width: 400px;
+  text-align: center;
+  border: 5px solid #FF7F50;
+}
+.par2{
+  
+  border: 5px solid #ff0000;
+  border-radius: 20px/40px;
+  box-shadow: inset 2px 2px 8px 8px rgba(0,0,0,.5);
+  overflow: auto;
+}
+.par3{
+  border: 5px solid #FF6347;
+  box-shadow:inset 10px 10px 10xp 8px rgba(0,0,0,0.75);
+}
+.ma{
+  background-color: red;
+}

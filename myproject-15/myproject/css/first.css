@@ -1,0 +1,19 @@
+h1 {
+  transform: translateX(250px);
+
+}
+
+div {
+  display: inline;
+}
+
+img {
+  width: 150px;
+  border-radius: 15px;
+}
+figure{
+  width: 150px;
+  margin: 0px;
+  float: left;
+  margin-right: 30px;
+}

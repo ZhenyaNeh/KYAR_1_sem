@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/media1280px.css" rel="stylesheet" media="(max-width: 1280px) and (min-width: 768px)">
+  <style>
+    @media (max-width: 480px) {
+        figcaption {
+          color:red;
+        }
+        figure > img {
+          width: 100%;
+          height: auto;
+        }
+        
+    }
+</style>
+</head>
+<body>
+
+ <div class="container">
+    <ul class="main">
+        <li>
+            <span>Menu</span>
+            <input type="checkbox" id="burger">
+            <label for="burger"></label>
+            <ul>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#audio">Audio</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#audio">Audio</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+    </ul>
+</div>
+  </div>
+
+  <div class="container">
+    <div class="div1">Рандомная информация</div>
+    <div class="div2" id="video">
+      <div class="video"><video src="img/pexels-vlada-karpovich-9968974.mp4" controls></video></div>
+      <div class="video"><video src="img/pexels-cup-of-couple-7303657.mp4" controls></video></div>
+      <div class="video"><video src="img/pexels-laker-6157131.mp4" controls></video></div>
+    </div>
+    <div class="div3"><div class="text"> Flexbox-верстка — разметка макетов веб-страниц, которая позволяет автоматически настраивать ширину элементов, находящихся внутри flex-контейнера. Для применения данного способа разметки следует учитывать разделение применяемых свойств на свойства flex-контейнера и свойства flex-элемента. С помощью display: flex; осуществляется преобразование HTML-элемента в flex-контейнер, а элементы находящийся внутри него в flex-элементы. По умолчанию flex-элементы помещаются друг за другом в одной строке. Свойство flex-flow позволяет выбрать направление отображения элементов в контейнере, а также указать их перенос на следующую строку. Первое значение определяет направление, а второе перенос на следующую строку. Свойство flex-flow является сокращенной записью и содержит значения свойств flex-direction и flex-wrap. Flex-элементы могут размещаться в строке (значение row) или в колонке (значение column). Перенос элементов осуществляется с помощью значения wrap. Свойство justify-content определяет способ выключки flexэлементов в строке. Для выравнивания левому краю используется значения flex-start, а по правому краю — flex-end. Для равномерного распределения элементов создавая пространство между ними необходимо значение space-between, а space-around добавляет поля по левому и правому краям крайних элементов. Свойство align-items определяет, как flex-элементы различной высоты будут выровнены по высоте строки в flex-контейнере. Для выравнивания верхнему краю используется значения flex-start, апо нижнему краю — flex-end. Значение stretch позволяет растянуть каждый элемент по высоте контейнера, делая их высоты одинаковыми. Свойство align-content определяет как будутразмещены flex-элементы, занимающие несколько строк.</div>
+      </div>
+    <div class="div2">
+      <div class="audio" id="audio">
+        <img src="img/world.jpg" alt=""><p>What A Wonderful World</p>
+        <audio src="img/Louis Armstrong - What A Wonderful World (The Ultimate Collection- Louis Armstrong).mp3" controls></audio></div>
+      <div class="audio">
+        <img src="img/team.jpg" alt=""><p>Smells Like Teen Spirit</p>
+        <audio src="img/Nirvana - Smells Like Teen Spirit (Nirvana).mp3" controls></audio></div>
+      <div class="audio">
+        <img src="img/queen.jpg" alt="" ><p>Killer Queen</p>
+        <audio src="img/Queen - Killer Queen (Bohemian Rhapsody (The Original Soundtrack)).mp3" controls></audio></div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <figure>
+      <img src="img/hvoyfor.jpg" alt="" />
+      <figcaption>Хвойный лес</figcaption>
+    </figure>
+  
+    <figure>
+      <img src="img/forlist.jpg" alt="" />
+      <figcaption>Лиственный лес</figcaption>
+    </figure>
+  
+    <figure>
+      <img src="img/forsmesh.jpg" alt="" />
+      <figcaption>Смешанный лес</figcaption>
+    </figure>
+  
+    <figure>
+      <img src="img/forber.jpg" alt="" />
+      <figcaption>Берёзовый лес</figcaption>
+    </figure>
+  
+    <figure>
+      <img src="img/osenfor.jpg" alt="" />
+      <figcaption>Осенний лес</figcaption>
+    </figure>
+  
+    <figure>
+      <img src="img/forwinter.jpg" alt="" />
+      <figcaption>Зимний лес</figcaption>
+    </figure>
+  
+    <figure>
+      <img src="img/vesfor.jpg" alt="" />
+      <figcaption>Весенний лес</figcaption>
+    </figure>
+  
+    <figure>
+      <img src="img/forlet.jpg" alt="" />
+      <figcaption>Летний лес</figcaption>
+    </figure>
+  </div>
+</body>
+</html>

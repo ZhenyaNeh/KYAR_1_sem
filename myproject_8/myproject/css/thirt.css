@@ -1,0 +1,62 @@
+.nav li{
+  display: inline;
+  float: left;
+  border: 1px solid black;
+}
+.bstu, .fit, .pim, .xtit{
+  padding-left: 10px;
+  text-align: left;
+  width: 150px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-indent: 30px;
+  display: block;
+  background: url(../img/facultet.png) no-repeat 0 0px;
+  border-radius: 5px 5px;
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.it {
+  display:none;
+  background: none;
+  list-style-type: none;
+  position: absolute;
+  text-indent: 0px;
+  width: 162px;
+  left: 170px;
+  top: 42px;
+}
+.it li{
+  width: 160px;
+  margin: 0;
+  padding: 4px 0;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 5px 5px;
+  margin-top: 3px;
+}
+.fit:hover{
+  background: url(../img/facultet.png) no-repeat 0 -32px;
+  height: 16px;
+  border: 2px solid black;
+}
+.fit:hover .it {
+  display: block;
+}
+.pim:hover{
+  background: url(../img/facultet.png) no-repeat 0 -90px;
+  height: 16px;
+  border: 2px solid black;
+}
+.xtit:hover{
+  background: url(../img/facultet.png) no-repeat 0 -60px;
+  height: 16px;
+  border: 2px solid black;
+}
+.bstu:hover{
+  height: 16px;
+  border: 2px solid black;
+}

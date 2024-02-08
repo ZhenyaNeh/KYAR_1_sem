@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="second.xsl"?>
+<main>
+    <student>
+        <name>Нехайчик Евгений</name>
+        <mark>9</mark>
+    </student>
+    <student>
+        <name>Марко Росси</name>
+        <mark>2</mark>
+    </student>
+    <student>
+        <name>Жан Перис</name>
+        <mark>4</mark>
+    </student>
+    <student>
+        <name>Давид Ройш</name>
+        <mark>3</mark>
+    </student>
+    <student>
+        <name>Селицкий Николай</name>
+        <mark>10</mark>
+    </student>
+</main>

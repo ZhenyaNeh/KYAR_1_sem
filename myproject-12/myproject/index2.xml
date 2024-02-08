@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="css/style.css"?>
+<!DOCTYPE body[
+        
+        <!ELEMENT list (row1,row,row,row)>
+        <!ELEMENT row1 (coll1,coll2)>
+        <!ELEMENT coll1 (#PCDATA)>
+        <!ELEMENT coll2 (#PCDATA)>
+        <!ELEMENT row (coll3,coll4)>
+        <!ELEMENT coll3 (#PCDATA)>
+        <!ELEMENT coll4 (#PCDATA)>
+        <!ENTITY mane "XML">
+        ]>
+<list>
+  <row1>
+    <coll1> &mane; Schema приемущества</coll1>
+    <coll2>Недостатки DTD</coll2>
+  </row1>
+  <row>
+    <coll3>&mane; схема пишется на &mane;</coll3>
+    <coll4>синтаксические отличия от языка &mane;</coll4>
+  </row>
+  <row>
+    <coll3>&mane; схема легко расширяется</coll3>
+    <coll4> отсутствие возможностей работы с типами данных</coll4>
+  </row>
+  <row>
+    <coll3>&mane; схема поддерживает типы данных</coll3>
+    <coll4>нет</coll4>
+  </row>
+  <row>
+    <coll3>&mane; схема поддерживает пространства имен</coll3>
+    <coll4>нет</coll4>
+  </row>
+</list>

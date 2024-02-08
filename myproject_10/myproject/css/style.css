@@ -1,0 +1,139 @@
+@import url(media768px.css) (min-width:480px) and (max-width:768px);
+* {
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  
+  border-radius: 10px;
+  margin: 20px;
+  padding: 0;
+}
+.div1{
+  width: 636px;
+  height: 20px;
+  flex: 1 1 100%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.div2{
+  width: 150px;
+  flex: 1 1 50px;
+  margin-left: 10px;
+}
+.div3{
+  width: 300px;
+  flex: 1 1 50px;
+  margin-left: 10px;
+}
+video{
+  width: 150px;
+  height: 263px;
+  border-radius: 30px;
+}
+audio{
+  width: 150px;
+  height: 20px;
+}
+.audio > img{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px; 
+}
+.audio{
+  margin-bottom: 35px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: #80808020;
+  border-radius: 30px;
+}
+.text{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #80808020;
+  border-radius: 30px;
+}
+
+
+#burger{
+  opacity: 0;
+}
+.button{
+  display: flex;
+  align-items:center;
+  width: 20px;
+  height: 20px;
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color:maroon;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+ul > li {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #80808020;
+  margin-left: -4px;
+  width: 200px;
+  margin-bottom: 30px;
+}
+.main li:nth-child(1) {
+  position: relative;
+}
+ul li ul{
+  display: none;
+}
+.main li {
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  [for=burger] {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      width: 30px;
+      text-align: center;
+      font-size: 2em;
+      cursor: pointer;
+  }
+  [for=burger]::before {
+    content: "\2261";
+  }
+  #burger:checked ~ ul {
+    display: block;
+    transform: translate(-37px, 20px);
+}
+#burger:checked ~ ul > li {
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+  .main > li:nth-child(n + 2) {
+      display: none;
+  }
+}
+
+
+@font-face {
+  font-family: "Marck";
+  src: url('../fonts/MarckScript-Regular.ttf');
+}
+
+ img {
+  height: 300px;
+  width: 400px;
+}
+figcaption {
+  font-family: "Marck";
+  text-align: center;
+}

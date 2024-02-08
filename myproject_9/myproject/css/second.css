@@ -1,0 +1,29 @@
+img {
+  width: 150px;
+  height: 150px;
+}
+.cell9> figure >img, .cell10> figure >img{
+  width: 380px;
+  height: 370px;
+}
+.grid {
+  display: grid;
+  width: 320px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.grid > div {
+  text-align: center;
+}
+.cell10{
+  grid-column: 1/3;
+  grid-row: 3/5;
+}
+.cell9{
+  grid-column: 4/6;
+  grid-row: 2/4;
+}
+figure{
+  padding: 0px;
+  
+}

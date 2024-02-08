@@ -1,0 +1,129 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: 8.5vh 6vh 30vh 5vh 6vh 14vh 10vh 8vh;
+  grid-gap: 10px;
+  text-align: center;
+  grid-template-areas: "a a a a a a a a a a a a a" "b b b b b b b b b c c c c" "d d d d d d d d d c c c c" "d d d d d d d d d e e e e" "f f f f f f f f f g g g g" "h h h h h h h h h g g g g" "h h h h h h h h h g g g g" "i i i i i i i i i i i i i";
+}
+
+.grid > div {
+  background: radial-gradient(rgba(255, 210, 152, 0.5333333333), white);
+  border-radius: 5px;
+}
+
+.content1 {
+  text-align: left;
+  background: linear-gradient(to left, #ffe2bc, white 50%);
+}
+
+label {
+  display: inline-block;
+  text-align: left;
+  width: 150px;
+}
+
+img {
+  margin: 22px;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.content6 {
+  text-align: left;
+}
+
+ul {
+  float: right;
+  width: 250px;
+  margin-top: 23px;
+  margin-left: 20px;
+  padding-left: 0;
+  margin-right: 5px;
+}
+
+.content6 > div > img {
+  margin-top: 23px;
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+}
+
+@font-face {
+  font-family: "Marck";
+  src: url("../fonts/MarckScript-Regular.ttf");
+}
+.content5 > h3, h4 {
+  padding: 0;
+  margin: 0;
+  font-family: "Marck";
+  font-size: 18px;
+}
+
+.content4 > h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "Marck";
+  font-size: 18px;
+}
+
+form > h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "Marck";
+  font-size: 18px;
+}
+
+.content2 > div > h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "Marck";
+  font-size: 18px;
+}
+
+.test1, .test2, .test3 {
+  display: inline-block;
+  width: 280px;
+  height: 250px;
+  font-size: 14px;
+}
+
+.test2 {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.header1 {
+  display: inline-block;
+}
+
+.header2 {
+  float: right;
+  margin: 0;
+  padding: 0;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.header1 > img {
+  width: 100px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fdc376;
+}
+
+h5 {
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.content8 {
+  text-align: right;
+}

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Marck";
+  src: url('../fonts/MarckScript-Regular.ttf');
+}
+img {
+  height: 300px;
+  width: 350px;
+}
+figure {
+  font-family: "Marck";
+  display: inline-block;
+  margin: 0; ;
+  text-align: center;
+}
+h1{
+  font-family: "Marck";
+  text-align: center;
+  
+}

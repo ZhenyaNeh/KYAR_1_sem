@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(13,1fr);
+  grid-template-rows: repeat(8,15vh); 
+  grid-gap:5px;
+  border: 1px solid black;
+  grid-template-areas: 
+  "a a a a a a a a a a a a a"
+  "b b b b b b b b b c c c c"
+  "d d d d d d d d d c c c c"
+  "d d d d d d d d d e e e e"
+  "f f f f f f f f f g g g g"
+  "h h h h h h h h h g g g g"
+  "h h h h h h h h h g g g g"
+  "i i i i i i i i i i i i i";
+}
+.grid > div {
+  background-color: rgba(121, 128, 132, 0.161);
+  border: 1px solid black;
+  border-radius: 20px;
+}
+/**/

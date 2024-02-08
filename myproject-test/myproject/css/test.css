@@ -1,0 +1,26 @@
+div {
+  display: inline;
+}
+.pic2, .pic3, .pic4 {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  margin: 20px;
+}
+.pic1{
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+figure{
+  width: 150px;
+  height: 150px;
+  margin-right: 0px;
+  margin-left: 0px;
+  float: left;
+}
+.figcap{
+  display: none;
+  text-align: center;
+}

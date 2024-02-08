@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<main>
+  <list>
+    <row1>
+      <coll1>XML Schema приемущества</coll1>
+      <coll2>Недостатки DTD</coll2>
+    </row1>
+    <row>
+      <coll3>1. XML схема пишется на XML</coll3>
+      <coll4>1. синтаксические отличия от языка XML</coll4>
+    </row>
+    <row>
+      <coll3>2. XML схема легко расширяется</coll3>
+      <coll4>2. отсутствие возможностей работы с типами данных</coll4>
+    </row>
+    <row>
+      <coll3>3. XML схема поддерживает типы данных</coll3>
+      <coll4>3. нет</coll4>
+    </row>
+    <row>
+      <coll3>4. XML схема поддерживает пространства имен</coll3>
+      <coll4>4. нет</coll4>
+    </row>
+  </list>
+</main>

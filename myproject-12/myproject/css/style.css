@@ -1,0 +1,33 @@
+
+list{
+  display: inline-block;
+  margin-left:20px;
+  position: relative;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+row,row1 {
+  display:table-row; 
+}
+
+coll1,coll2 {
+  display: table-cell;
+  border: 2px solid black;
+  padding: 15px;
+  text-align: center;
+}
+
+coll3,coll4 {
+  display: table-cell;
+  border: 1px solid black;
+  padding: 15px; 
+}
+
+coll3 {
+  background-color: #189318bd;
+}
+
+coll4 {
+  background-color: #cb2b2bcd;
+}

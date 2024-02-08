@@ -1,0 +1,7 @@
+div {
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-image: url(../img/forest7.webp), linear-gradient(45deg, #fb8124, #6e9ec900, transparent 90%),linear-gradient(140deg, #bcf913, #6e9ec900, transparent 70%), linear-gradient(225deg, #fab619, #6e9ec900, transparent 70%),linear-gradient(315deg, #3792f4, #6e9ec900, transparent 90%) ;
+  background-blend-mode: overlay;
+}

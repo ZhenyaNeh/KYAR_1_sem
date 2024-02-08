@@ -1,0 +1,30 @@
+img {
+  width: 230px;
+}
+
+ul > li{
+  display: inline;
+  margin-left:-4px;
+}
+nav {
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+  color:black;
+}
+li>a:hover{
+  transform: scale(0.95);
+  color: #38caca;
+  border: 1px solid #38caca;
+}

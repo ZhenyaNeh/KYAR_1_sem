@@ -1,0 +1,234 @@
+.nav{
+  margin-left: 450px;
+}
+.nav li{                        /*новое */
+  display: inline;
+  margin-right: -4px;
+}
+a{
+  display: inline-block;
+  border:2px solid green;
+  border-right:1px solid green;
+  border-left:1px solid green;
+  color: green;
+  background-color: yellow;
+  width: 90px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-top:50px;
+
+}
+img{                               /*Здание 1 про картинки*/
+  width: 300px;
+  height: 300px;
+  margin-top: 60px;
+  margin-right: 60px;
+  transition: all 0.5s ease-out 0s;
+  display: inline-block;
+  transform: perspective(500px) rotateY(5deg);
+}
+.img1:hover{
+  transform: scale(0.5); 
+}
+.img2:hover{
+  transform: rotate(45deg);
+}
+.img3:hover{
+  transform: translate(50px, 0px);
+}
+.img4:hover{
+  transform:  skew(20deg);
+}
+.secondimg1{                      /*Задание 2 про перспективу картинок*/
+  transform: perspective(500px) rotateX(45deg);
+  height: 350px;
+}
+.secondimg2{
+  transform: perspective(500px) rotateY(45deg);
+  height: 350px;
+}
+.secondimg3{
+  transform: perspective(500px) rotateX(-45deg);
+  height: 350px;
+}
+.secondimg4{
+  transform: perspective(500px) rotateY(-45deg);
+  height: 350px;
+}
+button{                                /*Задание 3 про кнопки*/
+  width: 240px;
+  height: 50px;
+  background-color: white;
+  color:black;
+  margin-right: 15px;
+  border: 2px solid black;
+  transition: all 0.5s ease-out 0s;
+}
+.but1:hover{
+  color: #ffffff;
+  background-color: black; 
+}
+.but2:hover{
+  border: 4px solid red; 
+  outline: 4px solid yellow;
+}
+.but3:hover{
+  border: 4px solid green;
+  border-right:none;
+  border-left:none;
+}
+.but4:hover{
+  border: 4px solid blue;
+  border-top:none;
+  border-bottom:none; 
+}
+.but5:hover{
+  border:none;
+  background-image: radial-gradient(yellow,magenta, cyan); 
+}
+.anime{
+  margin-bottom: 400px;
+}
+.anime> img{                     /*Задание 4*/
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  transform: perspective(500px) rotateY(45deg);
+}
+  .imgfourth1{
+  left:25px;
+  animation: first 5s ease-out  infinite alternate;
+}
+@keyframes first {
+  0%, 25%{left: 25px; top: 1100px; transform: perspective(500px) rotateY(45deg);}
+  50% {left: 325px; top: 1100px; transform: rotateY(0deg);}
+  75% {left: 325px; top: 1100px; transform: rotateY(0deg); }
+  100% {left: 25px; top: 1200px; transform: rotateY(0deg); }
+}
+.imgfourth2{
+  left:50px;
+  animation: second 5s ease-out infinite alternate;
+}
+@keyframes second {
+  0%, 25%{left: 50px; top:1100; transform: perspective(500px) rotateY(45deg);}
+  50% {left: 350px; top:1100; transform: rotateY(0deg);}
+  75% {left:350px; top: 1100px; transform: rotateY(0deg); filter: blur(10px);}
+  100% {left:350px; top: 1200px; transform: rotateY(0deg); filter: blur(10px);}
+}
+.imgfourth3{
+  left:75px;
+  animation: third 5s ease-out  infinite alternate;
+}
+@keyframes third {
+  0%, 25%{left: 75px; top:1100; transform: perspective(500px) rotateY(45deg);}
+  50% {left: 375px; top:1100; transform: rotateY(0deg);}
+  75% {left: 375px; top: 1100px;  transform: rotateY(0deg); filter: grayscale(1);}
+  100% {left: 675px; top: 1200px;  transform: rotateY(0deg); filter: grayscale(1);}
+}
+.imgfourth4{
+  left:100px;
+  animation: fourth 5s ease-out infinite alternate;
+}
+@keyframes fourth {
+  0%, 25%{left: 100px; top:1100; transform: perspective(500px) rotateY(45deg);}
+  50% {left: 400px; top:1100; transform: rotateY(0deg);}
+  75% {left: 400px; top: 1100px; transform: rotateY(0deg); filter: invert(1);}
+  100% {left: 1000px; top: 1200px; transform: rotateY(0deg); filter: invert(1);}
+}
+.fifthimg{                      /*Задание 5*/
+margin: 30px;
+border: 2px solid rgb(3, 255, 255);
+width: 400px;
+height: 400px;
+animation: fifth 5s linear infinite 0.2s alternate;
+background-repeat: no-repeat;
+}
+@keyframes fifth {
+  0%{background-image: url(../img/fifth1.jpg);}
+  25%{background-image: url(../img/fifth2.png);}
+  50%{background-image: url(../img/fifth3.1.jpg);}
+  75%{background-image: url(../img/fifth4.jpg);}
+  100%{background-image: url(../img/fifth5.webp);}
+}
+.run >img{                      /*Задание 6*/
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: absolute;
+}
+.run{
+  margin: 950px;
+}
+.siximg1{
+  animation: firstrun 5s linear infinite alternate;
+  left: 0px;
+  top: 2013px;
+}
+@keyframes firstrun {
+  from{left: 0px}
+	to{left: 200px}
+}
+.siximg2{
+  animation: secondrun 5s linear infinite alternate;
+  top: 2133px;
+}
+@keyframes secondrun {
+  0% { left: 0px; width: 100px; height: 100px; }
+	25% { left: 200px; width: 200px; height: 150px; }
+	50% { left: 300px; width: 400px; height: 75px; }
+	75% { left: 200px; width: 200px; height: 150px}
+	100% { left: 0px; width: 100px; height: 100px;}
+}
+.siximg3{
+  animation: thirdrun 5s linear infinite;
+  left: -100px;
+  top: 2253px;
+}
+@keyframes thirdrun {
+	from{left: -100;}
+	to{left: 1590px;}
+}
+.siximg4{
+  animation: fourthrun 5s linear infinite alternate;
+  left: 0;
+  top: 2373px;
+}
+@keyframes fourthrun {
+	from{top:2373px;}
+	to{top: 2423px;}
+}
+.siximg5{
+  animation: fifthrun 5s linear infinite alternate;
+  top: 2493px;
+}
+@keyframes fifthrun {
+  0% { left: 0px; top: 2493px; }
+	25% { left: 200px; top: 2493px; }
+	50% { left: 200px; top: 2693px; }
+	75% { left: 0px; top: 2693px; }
+	100% { left: 0px; top: 2493px; }
+}
+.seven{                               /*Задание 7*/
+  width: 300px;
+  height: 300px;
+  color: #ffffff;
+	transition: all 5s linear;
+  background-color: #00c8ff;
+  margin-bottom: 100px;
+  margin-left: 650px;
+  overflow: hidden;
+}
+.seven:hover{
+  background-color: #ffffff;
+  color: #00c8ff;
+}
+.ex {                              /*Задание 8*/
+	animation: h2 5s ease-out infinite alternate;
+	text-align: center;
+}
+@keyframes h2{
+	from{opacity: 0;}
+	to{opacity: 0.8;}
+}

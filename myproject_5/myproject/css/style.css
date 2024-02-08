@@ -1,0 +1,13 @@
+td{
+  border: 1px solid #000000;
+  border-spacing: 0; 
+  text-align: center;
+}
+tr th:nth-child(1n+1){
+  border: 1px solid #000000;
+  border-spacing: 0; 
+  background-color: #baba3fb6;
+}
+.vert:nth-child(1n+1){
+  background-color: #80008061;
+}

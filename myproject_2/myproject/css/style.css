@@ -1,0 +1,23 @@
+
+h1, h2, h3{
+color: #b87ddf;
+font-family:"Monotype Corsiva";
+}
+.subparagraph1{
+  color:#bb2121;
+  font-family:"Times New Roman";
+  font-size: 18pt;
+}
+.subparagraph2{
+  color:#dbdb17;
+  font-family:"Times New Roman";
+  font-size: 20pt;
+  }
+.subparagraph3{
+  color:#43a836;
+  font-family:"Times New Roman";
+  font-size: 22pt;
+  }
+tr th,td{
+  color:#36c3a7;
+}

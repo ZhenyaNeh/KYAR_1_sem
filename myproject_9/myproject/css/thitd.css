@@ -1,0 +1,45 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 15vh 15vh 15vh 15vh 15vh 15vh;
+  grid-gap:5px;
+  grid-template-areas: 
+  "b a a a a a"
+  "b a a a a a"
+  "b c c c d d"
+  "b c c c d d"
+  "e e e e e e"
+  "e e e e e e"
+  "e e e e e e";
+}
+.grid > div {
+  background-color: rgba(121, 128, 132, 0.161);
+  border: 1px solid black;
+  border-radius: 20px;
+}
+h1, h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+p {
+  padding: 10px 10px 0 10px;
+}
+img {
+  width: 600px;
+  height: 250px;
+  padding: 20px 30px 5px 130px;
+}
+nav>ul>li {
+  padding: 25px;
+  margin-bottom: 50px;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #357c9ab7;
+  font-weight: bold;
+}
+.par{
+  float: left;
+  
+}

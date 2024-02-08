@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="css/style.css"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="list.xsd">
+  <row1>
+    <coll1>XML Schema приемущества</coll1>
+    <coll2>Недостатки DTD</coll2>
+  </row1>
+  <row>
+    <coll3>XML схема пишется на XML</coll3>
+    <coll4>синтаксические отличия от языка XML</coll4>
+  </row>
+  <row>
+    <coll3>XML схема легко расширяется</coll3>
+    <coll4> отсутствие возможностей работы с типами данных</coll4>
+  </row>
+  <row>
+    <coll3>XML схема поддерживает типы данных</coll3>
+    <coll4>нет</coll4>
+  </row>
+  <row>
+    <coll3>XML схема поддерживает пространства имен</coll3>
+    <coll4>нет</coll4>
+  </row>
+</list>

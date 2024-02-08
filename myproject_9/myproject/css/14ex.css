@@ -1,0 +1,19 @@
+.grid {
+  display: inline-grid;
+  width: 320px;
+  margin-top: 5px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr ;
+  
+}
+.grid>div{
+  border: 1px solid black;
+}
+.cell4, .cell5, .cell6{
+  background-color: red;
+}
+p {
+  color: blue;
+}
